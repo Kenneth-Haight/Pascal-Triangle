@@ -15,7 +15,7 @@ public class Pascal {
 	  public static void print(int n) {
 		  int p = n;
 	    for (int i = 0; i < n; i++) {
-	    	for(int k = 0; k < p*9; k+=3) {
+	    	for(int k = 0; k < p*2+n; k+=3) {
 	    		System.out.print(" ");
 	    	}
 	    	p--;
